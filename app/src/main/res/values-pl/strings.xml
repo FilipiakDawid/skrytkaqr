@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">SkrytkaQR</string>
+
+    <string name="nav_active">Aktywne</string>
+    <string name="nav_trash">Kosz</string>
+    <string name="nav_settings">Ustawienia</string>
+
+    <!-- Settings -->
+    <string name="settings_section_basic">Podstawowe</string>
+    <string name="settings_phone_label">Numer telefonu</string>
+    <string name="settings_phone_placeholder">+4822000000</string>
+    <string name="settings_sender_label">Filtr nadawcy SMS</string>
+    <string name="settings_advanced_section">Ustawienia zaawansowane</string>
+    <string name="settings_code_regex_label">Regex - kod odbioru</string>
+    <string name="settings_locker_regex_label">Regex - warunek paczkomat</string>
+    <string name="settings_sms_sample_label">Przykładowy SMS do testowania</string>
+    <string name="settings_reset_button">Przywróć ustawienia domyślne</string>
+    <string name="settings_about_button">O aplikacji</string>
+
+    <!-- Settings feedback -->
+    <string name="settings_regex_invalid">Nieprawidłowy regex</string>
+    <string name="settings_regex_no_match">Brak dopasowania w przykładzie</string>
+    <string name="settings_code_found">✓ Znaleziono: %1$s</string>
+    <string name="settings_locker_match">✓ Dopasowano w przykładzie</string>
+
+    <!-- Active screen -->
+    <string name="active_empty_message">Brak paczek do odbioru</string>
+    <string name="active_empty_hint">Naciśnij ↻ aby wczytać kody z SMS-ów</string>
+    <string name="active_sync_none">Brak nowych paczek</string>
+    <string name="active_sync_fab">Synchronizuj SMS</string>
+    <string name="parcel_expired">Po terminie odbioru</string>
+    <string name="parcel_code_label">Kod: %1$s</string>
+    <string name="parcel_multi_locker">Multiskrytka</string>
+
+    <!-- Trash screen -->
+    <string name="trash_empty_message">Kosz jest pusty</string>
+    <string name="trash_auto_delete">Paczki są automatycznie usuwane po 7 dniach</string>
+
+    <!-- Parcel card -->
+    <string name="parcel_valid_until">%1$s</string>
+
+    <!-- QR Detail -->
+    <string name="qr_content_description">Kod QR paczki %1$s</string>
+    <string name="qr_trash_button">Odebrano - usuń</string>
+    <string name="no_phone_title">Brak numeru telefonu</string>
+    <string name="no_phone_body">Ustaw numer telefonu aby wygenerować kod QR</string>
+    <string name="no_phone_button">Przejdź do ustawień</string>
+    <string name="parcel_not_found">Nie znaleziono paczki</string>
+    <string name="parcel_valid_until_qr">Do %1$s</string>
+
+    <!-- Actions -->
+    <string name="action_moved_to_trash">Przeniesiono do kosza</string>
+    <string name="action_restored">Przywrócono</string>
+    <string name="action_deleted">Usunięto</string>
+
+    <!-- About -->
+    <string name="about_section">Informacje</string>
+    <string name="about_version">Wersja</string>
+    <string name="about_license">Licencja</string>
+    <string name="about_license_value">MIT</string>
+    <string name="about_source_code">Kod źródłowy</string>
+
+    <!-- Active screen -->
+    <plurals name="sync_imported">
+        <item quantity="one">Dodano %1$d paczkę</item>
+        <item quantity="few">Dodano %1$d paczki</item>
+        <item quantity="many">Dodano %1$d paczek</item>
+        <item quantity="other">Dodano %1$d paczek</item>
+    </plurals>
+    <plurals name="sync_updated">
+        <item quantity="one">Zaktualizowano %1$d paczkę</item>
+        <item quantity="few">Zaktualizowano %1$d paczki</item>
+        <item quantity="many">Zaktualizowano %1$d paczek</item>
+        <item quantity="other">Zaktualizowano %1$d paczek</item>
+    </plurals>
+
+    <!-- QR Detail -->
+    <plurals name="packages_count">
+        <item quantity="one">%1$d paczka</item>
+        <item quantity="few">%1$d paczki</item>
+        <item quantity="many">%1$d paczek</item>
+        <item quantity="other">%1$d paczek</item>
+    </plurals>
+</resources>

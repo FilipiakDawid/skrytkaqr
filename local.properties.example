@@ -1,0 +1,7 @@
+# Copy this file to local.properties and fill in your values
+# Required for release builds signing
+
+keystore.path=path/to/your/keystore.jks
+keystore.password=your_keystore_password
+keystore.alias=your_key_alias
+keystore.key_password=your_key_password

@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">SkrytkaQR</string>
+
+    <string name="nav_active">Active</string>
+    <string name="nav_trash">Trash</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Settings -->
+    <string name="settings_section_basic">Basic</string>
+    <string name="settings_phone_label">Phone number</string>
+    <string name="settings_phone_placeholder">+4822000000</string>
+    <string name="settings_sender_label">SMS sender filter</string>
+    <string name="settings_advanced_section">Advanced settings</string>
+    <string name="settings_code_regex_label">Regex - pickup code</string>
+    <string name="settings_locker_regex_label">Regex - locker condition</string>
+    <string name="settings_sms_sample_label">Sample SMS for testing</string>
+    <string name="settings_reset_button">Restore defaults</string>
+    <string name="settings_about_button">About</string>
+
+    <!-- Settings feedback -->
+    <string name="settings_regex_invalid">Invalid regex</string>
+    <string name="settings_regex_no_match">No match in sample</string>
+    <string name="settings_code_found">✓ Found: %1$s</string>
+    <string name="settings_locker_match">✓ Matched in sample</string>
+
+    <!-- Active screen -->
+    <string name="active_empty_message">No parcels to pick up</string>
+    <string name="active_empty_hint">Press ↻ to load codes from SMS</string>
+    <string name="active_sync_none">No new parcels</string>
+    <string name="active_sync_fab">Sync SMS</string>
+    <string name="parcel_expired">Past pickup deadline</string>
+    <string name="parcel_code_label">Code: %1$s</string>
+    <string name="parcel_multi_locker">Multi-locker</string>
+
+    <!-- Trash screen -->
+    <string name="trash_empty_message">Trash is empty</string>
+    <string name="trash_auto_delete">Parcels are automatically deleted after 7 days</string>
+
+    <!-- Parcel card -->
+    <string name="parcel_valid_until">%1$s</string>
+
+    <!-- QR Detail -->
+    <string name="qr_content_description">QR code for parcel %1$s</string>
+    <string name="qr_trash_button">Picked up - delete</string>
+    <string name="no_phone_title">No phone number</string>
+    <string name="no_phone_body">Set a phone number to generate a QR code</string>
+    <string name="no_phone_button">Go to settings</string>
+    <string name="parcel_not_found">Parcel not found</string>
+    <string name="parcel_valid_until_qr">Until %1$s</string>
+
+    <!-- Actions -->
+    <string name="action_moved_to_trash">Moved to trash</string>
+    <string name="action_restored">Restored</string>
+    <string name="action_deleted">Deleted</string>
+
+    <!-- About -->
+    <string name="about_section">Information</string>
+    <string name="about_version">Version</string>
+    <string name="about_license">License</string>
+    <string name="about_license_value">MIT</string>
+    <string name="about_source_code">Source code</string>
+
+    <!-- Active screen -->
+    <plurals name="sync_imported">
+        <item quantity="one">Added %1$d parcel</item>
+        <item quantity="other">Added %1$d parcels</item>
+    </plurals>
+    <plurals name="sync_updated">
+        <item quantity="one">Updated %1$d parcel</item>
+        <item quantity="other">Updated %1$d parcels</item>
+    </plurals>
+
+    <!-- QR Detail -->
+    <plurals name="packages_count">
+        <item quantity="one">%1$d parcel</item>
+        <item quantity="other">%1$d parcels</item>
+    </plurals>
+</resources>
